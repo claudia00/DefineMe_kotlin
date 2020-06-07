@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ChoiceActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/backgroundColor"
+        android:paddingTop="100dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/poison"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/active"
+            android:textColor="@color/textColor"
+            android:background="@color/buttonColor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/active"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/chore"
+            android:textColor="@color/textColor"
+            android:background="@color/buttonColor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/chores"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/customButton"
+        android:textColor="@color/textColor"
+        android:background="@color/buttonColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/custom"
+        />
+    </LinearLayout>

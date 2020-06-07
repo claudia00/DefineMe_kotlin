@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:id="@+id/checkbox"/>
+    <TextView
+        android:id="@+id/habitCustom"
+        style="@style/title"
+        android:textSize="22sp"
+        android:text="@string/habit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/checkbox"
+        android:layout_toEndOf="@id/checkbox"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        />
+</RelativeLayout>
+</LinearLayout>

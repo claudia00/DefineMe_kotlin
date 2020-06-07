@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DefineMe</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="poison">Pick Your Poison</string>
+    <string name="work">Work/Personal</string>
+    <string name="chores">Chore Wheel</string>
+    <string name="active">Food/Exercise</string>
+    <string name="habit">habit</string>
+    <string name="custom">Custom</string>
+
+    <string-array name="habitsActive">
+        <item>Push ups for the day</item>
+        <item>Eating Vegs in every meal</item>
+        <item>8 cups of water for the day</item>
+    </string-array>
+
+    <string name="hint_input1">Input your habit ^-^</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved =.= because it was empty</string>
+
+
+</resources>
