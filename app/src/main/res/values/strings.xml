@@ -19,6 +19,7 @@
     <string name="hint_input1">Input your habit ^-^</string>
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Word not saved =.= because it was empty</string>
+    <string name="choose_language">Choose Language</string>
 
 
 </resources>

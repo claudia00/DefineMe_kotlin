@@ -9,10 +9,11 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.defineme.Model
 import com.example.defineme.R
+import com.example.defineme.choreModel
 import kotlinx.android.synthetic.main.chorerow.view.*
 import kotlinx.android.synthetic.main.row.view.*
 
-class recyclerViewAdapter(var choreHabitList: ArrayList<choreModel>, val context: Context):
+class recyclerViewAdapter(private var choreHabitList: ArrayList<choreModel>, val context: Context):
 RecyclerView.Adapter<recyclerViewAdapter.ViewHolder>() {
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bindItems(choreModel: choreModel) {

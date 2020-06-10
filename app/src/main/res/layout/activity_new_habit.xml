@@ -6,7 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Custom_File.NewHabitActivity">
+    tools:context=".Custom_File.NewHabitActivity"
+    android:paddingTop="300dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
     <EditText
         android:id="@+id/newHabit"
         android:layout_width="match_parent"

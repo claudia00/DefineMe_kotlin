@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DefinirYo</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="poison">Elige tu veneno</string>
+    <string name="work">Trabajo / Persona</string>
+    <string name="chores">Rueda de tarea</string>
+    <string name="active">Comida / ejercicio</string>
+    <string name="habit">hábito</string>
+    <string name="custom">Personalizado</string>
+
+    <string-array name="habitsActive">
+        <item>Push ups for the day</item>
+        <item>Eating Vegs in every meal</item>
+        <item>8 cups of water for the day</item>
+    </string-array>
+
+    <string name="hint_input1">Ingrese su hábito ^ - ^</string>
+    <string name="button_save">Salvar</string>
+    <string name="empty_not_saved">Palabra no guardada =. = Porque estaba vacía</string>
+    <string name="choose_language">Elige lengua</string>
+
+</resources>

@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@color/backgroundColor"
-        android:paddingTop="100dp"
+        android:paddingTop="90dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
@@ -41,6 +41,17 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="@string/chores"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/work"
+        android:textColor="@color/textColor"
+        android:background="@color/buttonColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/work"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

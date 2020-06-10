@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.defineme.foodExercise.ActiveActivity
 import com.example.defineme.Custom_File.CustomActivity
 import com.example.defineme.choreWheel.ChoreActivity
+import com.example.defineme.workPersonal.WorkActivity
 import kotlinx.android.synthetic.main.activity_choice.*
 
 class ChoiceActivity : AppCompatActivity() {
@@ -22,6 +23,11 @@ class ChoiceActivity : AppCompatActivity() {
             val intent = Intent(this, ChoreActivity::class.java)
             startActivity(intent)
         }
+        work.setOnClickListener {
+            val intent = Intent(this, WorkActivity::class.java)
+            startActivity(intent)
+        }
+
         customButton.setOnClickListener{
             val intent = Intent(this, CustomActivity::class.java)
             startActivity(intent)

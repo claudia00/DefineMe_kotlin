@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DéfinirMoi</string>
+    <string name="login">S\'identifier</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="poison">Choisis ton poison</string>
+    <string name="work">Travail / Persona</string>
+    <string name="chores">Roue de corvée</string>
+    <string name="active">Nourriture / exercice</string>
+    <string name="habit">habitude</string>
+    <string name="custom">Douane</string>
+
+    <string-array name="habitsActive">
+        <item>Push ups for the day</item>
+        <item>Eating Vegs in every meal</item>
+        <item>8 cups of water for the day</item>
+    </string-array>
+
+    <string name="hint_input1">Entrez votre habitude ^ - ^</string>
+    <string name="button_save">sauver</string>
+    <string name="empty_not_saved">Mot non enregistré =. = Car il était vide</string>
+    <string name="choose_language">Choisissez la langue</string>
+</resources>

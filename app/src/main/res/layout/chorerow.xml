@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <RelativeLayout
         android:padding="16dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="UselessParent">
+        android:layout_height="wrap_content">
         <CheckBox
             android:layout_width="25dp"
             android:layout_height="35dp"
             android:id="@+id/checkbox"/>
         <TextView
             android:id="@+id/listHabit2"
+            style="@style/title"
             android:textSize="22sp"
             android:text="@string/habit"
             android:layout_width="match_parent"
@@ -27,5 +27,6 @@
             android:layout_marginStart="10dp"
             />
     </RelativeLayout>
+
 
 </LinearLayout>
